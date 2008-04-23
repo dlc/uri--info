@@ -1,8 +1,6 @@
 package URI::Info;
 
 # -------------------------------------------------------------------
-# $Id: Info.pm,v 1.1 2005/08/11 13:50:12 dlc Exp $
-# -------------------------------------------------------------------
 #  URI::Info --
 #  Copyright (C) 2005 darren chamberlain <darren@cpan.org>
 #
@@ -22,10 +20,9 @@ package URI::Info;
 # -------------------------------------------------------------------
 
 use strict;
-use vars qw($VERSION $REVISION);
+use vars qw($VERSION);
 
 $VERSION = 1.00;
-$REVISION = sprintf "%d.%02d", q$Revision: 1.1 $ =~ /(\d+)\.(\d+)/;
 
 use URI;
 use URI::http;
